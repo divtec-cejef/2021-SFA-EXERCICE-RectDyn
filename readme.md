@@ -4,7 +4,6 @@
 
 Créer un formulaire Web permettant à l’utilisateur de modifier l’aspect et le contenu d’un élément <div>.
 
-
 ![Image for post](images/rectdyn.gif)
 
 ## A lire avant de commencer
