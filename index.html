@@ -17,7 +17,59 @@
     <section>
         <h2>Formulaire de modification</h2>
         <!-- Uniquement modifier le code après cette ligne. -->
+        <form id="formRect" action="#">
+            <ul>
+                <li>
+                    <label for="hauteur">Hauteur</label>
+                    <input name="hauteur" id="hauteur" type="text" value="100"/>
+                </li>
+                <li>
+                    <label for="largeur">Largeur</label>
+                    <input name="largeur" id="largeur" type="text" value="100"/>
+                </li>
+                <li>
+                    <label for="fond">Couleur de fond</label>
+                    <select name="fond" id="fond">
+                        <option selected value="yellow">Jaune</option>
+                        <option value="red">Rouge</option>
+                        <option value="green">Vert</option>
+                        <option value="blue">Bleu</option>
+                    </select>
+                </li>
+                <li>
+                    <fieldset>
+                        <legend>Couleur du texte</legend>
+                        <input type="radio" name="color" id="noir" value="black" checked/>
+                        <label for="noir">Noir</label>
 
+                        <input type="radio" name="color" id="blanc" value="white"/>
+                        <label for="blanc">Blanche</label>
+
+                        <input type="radio" name="color" id="rose" value="pink"/>
+                        <label for="rose">Rose</label>
+                    </fieldset>
+                </li>
+                <li>
+                    <fieldset>
+                        <legend>Style du texte</legend>
+
+                        <input type="checkbox" name="gras" id="gras"/>
+                        <label for="gras">gras</label>
+
+                        <input type="checkbox" name="souligne" id="souligne"/>
+                        <label for="souligne">soulign&eacute;</label>
+                    </fieldset>
+                </li>
+                <li>
+                    <label for="txt">Texte</label>
+                    <textarea rows="2" cols="20" name="txt" id="txt">Votre texte</textarea>
+                </li>
+                <li>
+                    <button class="left" type="reset" name="btReset">R&eacute;initialiser</button>
+                    <button class="right" type="submit">Modifier le rectangle</button>
+                </li>
+            </ul>
+        </form>
         <!-- Uniquement modifier le code avant cette ligne. -->
         <div id="rectangle">
             Votre texte

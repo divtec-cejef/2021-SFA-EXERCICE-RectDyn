@@ -45,22 +45,23 @@ a {
 }
 
 .bouton,
-input[type="submit"],
-input[type="reset"],
+[type="submit"],
+[type="reset"],
 button {
     color: white;
     padding: 1em;
     background-color: #599a68;
+    border: none;
 }
 
 
-input[type="reset"] {
+[type="reset"] {
     background-color: #CCC;
 }
 
 .bouton:hover ,
-input[type="submit"]:hover ,
-input[type="reset"]:hover ,
+[type="submit"]:hover ,
+[type="reset"]:hover ,
 button:hover  {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-transition: all 0.3s ease;
@@ -69,7 +70,7 @@ button:hover  {
 
 #wrapper {
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 2em 0;
 }
 
 /******************
