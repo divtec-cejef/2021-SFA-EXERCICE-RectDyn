@@ -5,9 +5,11 @@
  *
  * http://usejsdoc.org/
  */
-
+// TODO Ajouter autofocus au 1er champ
 (function main() {
     "use strict"; // Demande un interprétation stricte du code
+
+
 
     //Récupération des éléments HTML utiles
     const formRect = document.getElementById("formRect");
@@ -18,22 +20,6 @@
     const chkSouligne = document.getElementById("souligne");
     const tareaTxt = document.getElementById("txt");
     const divRectangle = document.getElementById("rectangle");
-
-    /**
-     * Retourne la valeur du bouton radio sélectionné dans le groupe
-     * (tableau) de radios passé en paramètre
-     *
-     * @param  {object}  radios - Groupe d'input de type radio
-     * @return {String}  valeur du bouton radio sélectionné ou ''
-     */
-    function getRadio(radios) {
-        for (let i = 0; i < radios.length; i += 1) {
-            if (radios[i].checked) {
-                return radios[i].value;
-            }
-        }
-        return "";
-    }
 
     /**
      * Modifie l'aspect et le contenu de la div #rectangle
