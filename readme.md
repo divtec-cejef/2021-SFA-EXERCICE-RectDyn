@@ -67,8 +67,3 @@ Travail de la fonction :
 
 Réinitialiser le formulaire ainsi que l’aspect et le contenu de la `<div>`
  `#rectangle`  lors de la réinitialisation du formulaire : `onreset`.
-
-- [133a](https://medium.com/tag/133a)
-- [HTML](https://medium.com/tag/html)
-- [JavaScript](https://medium.com/tag/javascript)
-- [Forms](https://medium.com/tag/forms)
