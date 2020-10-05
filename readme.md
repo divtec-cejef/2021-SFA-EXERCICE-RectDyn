@@ -42,7 +42,7 @@ Créer un formulaire Web permettant à l’utilisateur de modifier l’aspect et
 | Hauteur         | Champ texte | `"100"` | A le focus au chargement de la page |
 | Largeur         | Champ texte | `"100"` |  |
 | Couleur de fond | Liste déroulante | `"Jaune"` | Choix: `Bleu`, `Jaune`, `Rouge`, `Vert` |
-| Couleur du texte | Groupe de radios | `"Noir"` | Choix: `Noir`, `Blanche`, `Rose` |
+| Couleur du texte | Groupe de radios | `"Noire"` | Choix: `Noire`, `Blanche`, `Rose` |
 | Gras | Case à cocher  |  | Fait partie du groupe de champs `Couleur du texte` |
 | Souligné | Case à cocher  |  | Fait partie du groupe de champs `Couleur du texte` |
 | Texte | Zone de texte | `"Votre texte"` |  |
