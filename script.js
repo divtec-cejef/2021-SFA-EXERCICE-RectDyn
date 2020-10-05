@@ -19,7 +19,7 @@
     const tareaTxt = document.getElementById("txt");
     const divRectangle = document.getElementById("rectangle");
 
-    //Récupération du style et du contenu du rectange
+    //Sauvegarde le style et le texte par défaut du rectangle
     const DIV_RECTANGLE_STYLES = divRectangle.style.cssText
     const DIV_RECTANGLE_TXT = divRectangle.innerText
 
