@@ -32,13 +32,22 @@ Créer un formulaire Web permettant à l’utilisateur de modifier l’aspect et
 - Identifier le formulaire avec l’id `“formRect”`
 - Structurer le formulaire avec une liste HTML non-triée.
 - Labelliser et identifier chaque champs
+- Donner l'autofocus au champ hauteur
 - Respecter les bonnes pratiques de la création de formulaires Web.
 
 ### Détail des champs du formulaire
 
-![Image for post](images/rectdyn-tableau-champs.png)
-
-Tableau des champs du formulaire RectDyn
+| Etiquette       | Type        | Valeur par défaut | Remarques|
+|-----------------|-------------|-------------------|----------|
+| Hauteur         | Champ texte | 100 | A le focus au chargement de la page |
+| Largeur         | Champ texte | 100 |  |
+| Couleur de fond | Liste déroulante | Jaune | Choix: Bleu, Jaune, Rouge, Vert |
+| Couleur du texte | Groupe de radios | Noir | Choix: Noir, Blanche, Rose |
+| Gras | Case à cocher  |  |  |
+| Souligné | Case à cocher  |  |  |
+| Texte | Zone de texte | Votre texte |  |
+| R&eacute;initialiser | Bouton de reset |  | Réinitialise le formulaire |
+| Modifier le rectangle | Bouton d'envoi |  | Envoie le formulaire |
 
 ## JavaScript
 

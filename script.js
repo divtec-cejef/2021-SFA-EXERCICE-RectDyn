@@ -5,14 +5,11 @@
  *
  * http://usejsdoc.org/
  */
-// TODO Ajouter autofocus au 1er champ
 // TODO Trier option A-Z
 // TODO pattern - https://www.w3schools.com/TAGS/att_input_pattern.asp
 
 (function main() {
     "use strict"; // Demande un interprétation stricte du code
-
-
 
     //Récupération des éléments HTML utiles
     const formRect = document.getElementById("formRect");
