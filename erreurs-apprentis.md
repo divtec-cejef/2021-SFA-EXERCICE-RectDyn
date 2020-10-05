@@ -19,4 +19,29 @@ return alert('Entrez un nombre !');
 alert('Entrez un nombre !');
 return;
 ```
+---
+Eviter si possible les `if...else`.
 
+```javascript
+// PAS BIEN
+if (!hauteur) {
+    alert('Entrez un nombre !'); 
+} else if (hauteur < 0 || hauteur > 500 ) {
+    alert('Entrez un entre 0 et 500 !');     
+} else {
+    alert('Bravo !')
+}
+
+// BIEN
+if (!hauteur) {
+    alert('Entrez un nombre !');
+    return; // Sort de la fonction
+}
+
+if (hauteur < 0 || hauteur > 500 ) {
+    alert('Entrez un nombre !');
+    return; // Sort de la fonction    
+}
+
+alert('Bravo !');
+```
