@@ -5,7 +5,6 @@
  *
  * http://usejsdoc.org/
  */
-// TODO Trier option A-Z
 // TODO pattern - https://www.w3schools.com/TAGS/att_input_pattern.asp
 
 (function main() {
