@@ -5,7 +5,6 @@
  *
  * http://usejsdoc.org/
  */
-// TODO pattern - https://www.w3schools.com/TAGS/att_input_pattern.asp
 
 (function main() {
     "use strict"; // Demande un interprétation stricte du code
