@@ -24,13 +24,17 @@
     const tareaTxt = document.getElementById("txt");
     const divRectangle = document.getElementById("rectangle");
 
+    //Récupération du style et du contenu du rectange
+    const DIV_RECTANGLE_STYLES = divRectangle.style.cssText
+    const DIV_RECTANGLE_TXT = divRectangle.innerText
+
     /**
      * Modifie l'aspect et le contenu de la div #rectangle
      * en fonction des valeurs actuelles du formulaire.
      *
      * @return {Boolean} retourne toujours false pour stopper l'envoi du formulaire
      */
-    function miseAJour(event) {
+    function miseAJour (event) {
         //Stoppe l'envoi du formulaire
         event.preventDefault();
 
@@ -92,19 +96,9 @@
     formRect.addEventListener('submit', miseAJour);
 
     //Réinitialisation du carre sur le reset du formulaire
-    formRect.addEventListener('reset', function resetForm(event) {
-        //Modification de la hauteur et largeur
-        divRectangle.style.height = "100px";
-        divRectangle.style.width = "100px";
-
-        //Modification du background
-        divRectangle.style.background = "yellow";
-
-        //Modification du contenu : html, soulignement, couleur
-        divRectangle.innerHTML = "Votre texte";
-        divRectangle.style.fontWeight = "normal";
-        divRectangle.style.textDecoration = "none";
-        divRectangle.style.color = "black";
+    formRect.addEventListener('reset', function resetForm() {
+        divRectangle.style.cssText = DIV_RECTANGLE_STYLES;
+        divRectangle.innerText = DIV_RECTANGLE_TXT;
     });
 
 }()); // Main IIFE
