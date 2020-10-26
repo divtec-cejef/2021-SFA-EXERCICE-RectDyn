@@ -16,7 +16,7 @@
     const optCouleur = document.getElementById("fond");
     const chkGras = document.getElementById("gras");
     const chkSouligne = document.getElementById("souligne");
-    const tareaTxt = document.getElementById("txt");
+    const txtTxt = document.getElementById("txt");
     const divRectangle = document.getElementById("rectangle");
 
     //Sauvegarde le style et le texte par défaut du rectangle
@@ -78,7 +78,7 @@
             : "none"; //Si condition fausse
 
         /*** Texte du rectangle ***/
-        divRectangle.innerHTML = tareaTxt.value;
+        divRectangle.innerHTML = txtTxt.value;
 
         //formRect.submit(); //Envoie le formulaire
 

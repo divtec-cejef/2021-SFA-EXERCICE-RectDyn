@@ -14,5 +14,6 @@
 * Récupérer tout le CSS d'un élément avec `style.cssText`.
 * Écouter l'envoi du formulaire et non le clic du bouton.
   https://divtec.gitbook.io/133a/javascript/formulaires/capter-lenvoi-du-formulaire#evenement-submit
-* Faire le querySelector sur le formulaire  
+* Faire le querySelector sur le formulair
+* Mettre en **camelcase** les constantes qui représentent des objets. 
 
