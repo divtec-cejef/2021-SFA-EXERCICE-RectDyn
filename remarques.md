@@ -11,4 +11,5 @@
 * Utiliser la propriété `.checked` pour savoir si une case est cochée.
 * Utiliser les ternaires pour les cases à cocher :
   https://divtec.gitbook.io/133a/javascript/introduction/conditions#loperateur-ternaire-conditionnel
+* Récupérer tout le CSS d'un élément avec style.cssText.  
 

@@ -29,7 +29,7 @@
      *
      * @return {Boolean} retourne toujours false pour stopper l'envoi du formulaire
      */
-    function miseAJour (event) {
+    function miseAJour(event) {
         //Stoppe l'envoi du formulaire
         event.preventDefault();
 
