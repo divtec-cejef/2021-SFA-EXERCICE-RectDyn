@@ -20,7 +20,7 @@
     const divRectangle = document.getElementById("rectangle");
 
     //Sauvegarde le style et le texte par défaut du rectangle
-    const DIV_RECTANGLE_STYLES = divRectangle.style.cssText
+    // const DIV_RECTANGLE_STYLES = divRectangle.style.cssText
     const DIV_RECTANGLE_TXT = divRectangle.innerText
 
     /**
@@ -92,7 +92,8 @@
 
     //Réinitialisation du carre sur le reset du formulaire
     formRect.addEventListener('reset', function resetForm() {
-        divRectangle.style.cssText = DIV_RECTANGLE_STYLES;
+        // Supprime les styles appliqués par le script
+        divRectangle.style.cssText = "";
         divRectangle.innerText = DIV_RECTANGLE_TXT;
     });
 
