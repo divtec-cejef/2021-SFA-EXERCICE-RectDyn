@@ -9,26 +9,49 @@
 (function main() {
     "use strict"; // Demande un interprétation stricte du code
 
-    //Récupération des éléments HTML utiles
-    const formRect = document.getElementById("formRect");
-    const txtHauteur = document.getElementById("hauteur");
-    const txtLargeur = document.getElementById("largeur");
-    const optCouleur = document.getElementById("fond");
-    const chkGras = document.getElementById("gras");
-    const chkSouligne = document.getElementById("souligne");
-    const txtTxt = document.getElementById("txt");
-    const divRectangle = document.getElementById("rectangle");
+    /* Création d'une nouvelle application Vue sur l'élément HTML #rect-dyn-app */
+    const RectDynApp = new Vue({
+        name: 'RectDynApp',
+        el: '#rect-dyn-app', // élément HTML lié à l'application Vue
+        // objet représentant les données de l'application Vue
+        data: {
+            /* Pour lier un donnée à une élément deformulaire il faut
+             ajouter l'attribut (v-model) à l'input :
+             <input v-model="hauteur" ... />
+             */
+            hauteur: '110',
+            largeur: '120',
+            couleurFond: 'yellow',
+            couleurTexte: 'black',
+            gras: false,
+            souligne: false,
+            texte: 'Votre texte'
+        },
+        methods: {
+            modifierRectangle: function () {
+                // Largeur
+                this.$refs.rectangle.style.width = this.largeur + 'px';
+                // Hauteur
+                this.$refs.rectangle.style.height = this.hauteur + 'px';
+                // Couleur de fond
+                this.$refs.rectangle.style.background = this.couleurFond;
+                // Couleur du texte
+                this.$refs.rectangle.style.color = this.couleurTexte;
+                // Si gras est coché
+                this.$refs.rectangle.style.fontWeight = this.gras
+                  ? "bold"
+                  : "normal";
+                // Si souligné est coché
+                this.$refs.rectangle.style.textDecoration = this.souligne
+                  ? "underline"
+                  : "none";
+                // Texte
+                this.$refs.rectangle.innerHTML = this.texte;
+            }
+        }
+    })
 
-    //Sauvegarde le style et le texte par défaut du rectangle
-    // const DIV_RECTANGLE_STYLES = divRectangle.style.cssText
-    const DIV_RECTANGLE_TXT = divRectangle.innerText
 
-    /**
-     * Modifie l'aspect et le contenu de la div #rectangle
-     * en fonction des valeurs actuelles du formulaire.
-     *
-     * @return {Boolean} retourne toujours false pour stopper l'envoi du formulaire
-     */
     function miseAJour(event) {
         //Stoppe l'envoi du formulaire
         event.preventDefault();
@@ -88,13 +111,13 @@
 
     //Affecte la fonction miseAJour à l'envoi du formRect
     //formRect.onsubmit = miseAJour; //Pas de parenthèses
-    formRect.addEventListener('submit', miseAJour);
+    //formRect.addEventListener('submit', miseAJour);
 
     //Réinitialisation du carre sur le reset du formulaire
-    formRect.addEventListener('reset', function resetForm() {
+    /*formRect.addEventListener('reset', function resetForm() {
         // Supprime les styles appliqués par le script
         divRectangle.style.cssText = "";
         divRectangle.innerText = DIV_RECTANGLE_TXT;
-    });
+    });*/
 
 }()); // Main IIFE
