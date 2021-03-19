@@ -53,6 +53,7 @@
                 if ( !this.validation() ) {
                     return;
                 }
+
                 // Largeur
                 this.$refs.rectangle.style.width = this.rectangle.largeur + 'px';
                 // Hauteur
