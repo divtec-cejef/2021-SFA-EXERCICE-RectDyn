@@ -21,6 +21,7 @@
               action="#"
               ref="formRect"
               @submit.prevent="modifierRectangle"
+              @reset.prevent="reset"
         >
             <ul>
                 <li>
@@ -30,7 +31,7 @@
                            id="hauteur"
                            type="text"
                            value="100"
-                           v-model="hauteur"
+                           v-model="rectangle.hauteur"
                     >
                 </li>
                 <li>
@@ -39,12 +40,15 @@
                            id="largeur"
                            type="text"
                            value="100"
-                           v-model="largeur"
+                           v-model="rectangle.largeur"
                     >
                 </li>
                 <li>
                     <label for="fond">Couleur de fond</label>
-                    <select name="fond" id="fond" v-model="couleurFond">
+                    <select name="fond"
+                            id="fond"
+                            v-model="rectangle.couleurFond"
+                    >
                         <option value="blue">Bleu</option>
                         <option selected value="yellow">Jaune</option>
                         <option value="red">Rouge</option>
@@ -55,19 +59,20 @@
                     <fieldset>
                         <legend>Couleur du texte</legend>
                         <input type="radio" name="color" id="noir"
-                               v-model="couleurTexte"
+                               v-model="rectangle.couleurTexte"
                                value="black"
+                               checked
                         />
                         <label for="noir">Noire</label>
 
                         <input type="radio" name="color" id="blanc"
-                               v-model="couleurTexte"
+                               v-model="rectangle.couleurTexte"
                                value="white"
                         />
                         <label for="blanc">Blanche</label>
 
                         <input type="radio" name="color" id="rose"
-                               v-model="couleurTexte"
+                               v-model="rectangle.couleurTexte"
                                value="pink"
                         />
                         <label for="rose">Rose</label>
@@ -80,14 +85,14 @@
                         <input type="checkbox"
                                name="gras"
                                id="gras"
-                               v-model="gras"
+                               v-model="rectangle.gras"
                         />
                         <label for="gras">Gras</label>
 
                         <input type="checkbox"
                                name="souligne"
                                id="souligne"
-                               v-model="souligne"
+                               v-model="rectangle.souligne"
                         />
                         <label for="souligne">Soulign&eacute;</label>
                     </fieldset>
@@ -98,8 +103,8 @@
                               cols="20"
                               name="txt"
                               id="txt"
-                              v-model="texte"
-                    ></textarea>
+                              v-model="rectangle.texte"
+                    >Votre texte</textarea>
                 </li>
                 <li>
                     <button class="left" type="reset" name="btReset">R&eacute;initialiser</button>
