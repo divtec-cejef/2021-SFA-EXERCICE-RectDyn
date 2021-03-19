@@ -1,7 +1,7 @@
 ﻿/**
- * @author      Jean Némarre <jean.nemarre@divtec.ch>
+ * @author      Steve Fallet <steve.fallet@divtec.ch>
  * @version     0.1
- * @since       2016-09-23
+ * @since       2021-03-19
  *
  * http://usejsdoc.org/
  */
