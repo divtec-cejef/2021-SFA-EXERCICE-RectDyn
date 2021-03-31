@@ -47,6 +47,8 @@
                     alert("Largeur et hauteur max 500 !");
                     return false;
                 }
+
+                return true;
             },
             modifierRectangle: function () {
                 // Si saisie invalide on arrête
