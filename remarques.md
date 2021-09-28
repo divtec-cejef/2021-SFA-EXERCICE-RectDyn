@@ -1,5 +1,16 @@
 # Erreurs courantes 2020
 
+## HTML
+* Ajouter valeur par défaut
+* valeur des attribut en `kebacase` pas `camelcase` : `couleurFond -> couleur-fond`
+* Valeur inutile pour les checkbox
+* Utiliser les attributs `rows` et `cols` pour donner une taille initiale
+
+
+
+## JavaScript
+
+
 * Si possible, récupérer, rechercher, qu'une seule fois les éléments
   HTML en les plaçant dans des **constantes**
   et ce **en dehors de la fonction `miseAjour()`**.
