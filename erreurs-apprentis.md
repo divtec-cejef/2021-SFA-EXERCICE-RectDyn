@@ -45,3 +45,8 @@ if (hauteur < 0 || hauteur > 500 ) {
 
 alert('Bravo !');
 ```
+---
+querySelectorAll dans le formulaire
+---
+Décrire avec commentaire ce que fait l'événement, la fonction décrite dans l'événement.
+---

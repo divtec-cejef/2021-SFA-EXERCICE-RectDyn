@@ -12,6 +12,7 @@
   des`[]` à la fin du nom sans espace. `name="music" => name="music[]"` 
 * Toujours mettre les `""` autours des valeurs des attributs.
 * Ajouter attribut `selected` à la valeur sélectionnée par défaut !
+* Supprimer espaces inutiles `value = "100"` => `value="100"`
 
 ## JavaScript
 
