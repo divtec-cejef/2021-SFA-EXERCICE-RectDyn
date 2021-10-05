@@ -10,6 +10,7 @@
 * **Pas de majuscules** dans les valeurs des attributs HTML !
 * Utiliser un nom différent pour les cases à cocher.
 * Toujours mettre les `""` autours des valeurs des attributs.
+* Ajouter attribut `selected` à la valeur sélectionnée par défaut !
 
 ## JavaScript
 
