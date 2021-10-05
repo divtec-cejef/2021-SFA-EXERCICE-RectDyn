@@ -17,6 +17,7 @@
 * Toujours mettre les `""` autours des valeurs des attributs.
 * Supprimer espaces inutiles `value = "100"` => `value="100"`
 * Toujours trier les `<option>` par ordre alphabétique.
+* Toujours fournir une valeur, `value` aux `<option>`
 * Ajouter attribut `selected` à la valeur sélectionnée par défaut !
 * Supprimer les espaces au début et fin de la valeur par défaut, car imprimés dans la `<textarea>`.
 
