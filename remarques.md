@@ -1,6 +1,8 @@
 # Erreurs courantes 2020
 
 ## HTML
+* Manque `<form>` avec ses attributs `action` et `method`
+* Manque `<ul>` et `<li>` pour structurer le formulaire
 * Manque l'attribut `method` et `action`
 * Ajouter valeur par défaut
 * Manque attribut `name`.
