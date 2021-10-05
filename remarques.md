@@ -19,7 +19,7 @@
 * Toujours trier les `<option>` par ordre alphabétique.
 * Toujours fournir une valeur, `value` aux `<option>`
 * Ajouter attribut `selected` à la valeur sélectionnée par défaut !
-* Supprimer les espaces au début et fin de la valeur par défaut, car imprimés dans la `<textarea>`.
+* Supprimer les retours à la ligne, tabulations et espaces au début et fin de la valeur par défaut, car imprimés dans la `<textarea>`.
 
 
 ## JavaScript
