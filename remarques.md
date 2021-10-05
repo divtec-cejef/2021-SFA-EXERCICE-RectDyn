@@ -11,13 +11,15 @@
 * Utiliser un nom différent pour les cases à cocher ou ajouter
   des`[]` à la fin du nom sans espace. `name="music" => name="music[]"` 
 * Toujours mettre les `""` autours des valeurs des attributs.
-* Ajouter attribut `selected` à la valeur sélectionnée par défaut !
 * Supprimer espaces inutiles `value = "100"` => `value="100"`
 * Toujours trier les `<option>` par ordre alphabétique.
+* Ajouter attribut `selected` à la valeur sélectionnée par défaut !
+
 
 ## JavaScript
 
-
+* querySelectorAll dans le formulaire
+* Décrire avec commentaire ce que fait l'événement, la fonction décrite dans l'événement.
 * Si possible, récupérer, rechercher, qu'une seule fois les éléments
   HTML en les plaçant dans des **constantes**
   et ce **en dehors de la fonction `miseAjour()`**.
