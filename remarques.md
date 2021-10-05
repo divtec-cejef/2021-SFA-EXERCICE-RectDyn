@@ -1,6 +1,7 @@
 # Erreurs courantes 2020
 
 ## HTML
+* Manque l'attribut `method` et `action`
 * Ajouter valeur par défaut
 * valeur des attribut en `kebacase` pas `camelcase` : `couleurFond -> couleur-fond`
 * Valeur inutile pour les checkbox
