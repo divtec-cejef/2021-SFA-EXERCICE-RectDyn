@@ -8,7 +8,8 @@
 * Pour les groupes de boutons radio et groupes de cases à cocher toujours utiliser un `<fieldset>` et une `<legend>`.
 * Changer les valeurs par des valeurs CSS
 * **Pas de majuscules** dans les valeurs des attributs HTML !
-* Utiliser un nom différent pour les cases à cocher.
+* Utiliser un nom différent pour les cases à cocher ou ajouter
+  des`[]` à la fin du nom sans espace. `name="music" => name="music[]"` 
 * Toujours mettre les `""` autours des valeurs des attributs.
 * Ajouter attribut `selected` à la valeur sélectionnée par défaut !
 
