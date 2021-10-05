@@ -3,6 +3,7 @@
 ## HTML
 * Manque l'attribut `method` et `action`
 * Ajouter valeur par défaut
+* Manque attribut `name`.
 * valeur des attribut en `kebacase` pas `camelcase` : `couleurFond -> couleur-fond`
 * Valeur inutile pour les checkbox
 * Utiliser les attributs `rows` et `cols` pour donner une taille initiale
