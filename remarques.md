@@ -7,10 +7,11 @@
 * Ajouter valeur par défaut
 * Manque attribut `name`.
 * valeur des attribut en `kebacase` pas `camelcase` : `couleurFond -> couleur-fond`
+* Pas de caractères spéciaux dans les attributs `name`, `id`, `for`
 * Valeur inutile pour les checkbox
 * Utiliser les attributs `rows` et `cols` pour donner une taille initiale
 * Pour les groupes de boutons radio et groupes de cases à cocher toujours utiliser un `<fieldset>` et une `<legend>`.
-* Changer les valeurs par des valeurs CSS
+* Changer les valeurs des `<option>` par des valeurs CSS : `pink`, `#0000FF`
 * **Pas de majuscules** dans les valeurs des attributs HTML !
 * Utiliser un nom différent pour les cases à cocher ou ajouter
   des`[]` à la fin du nom sans espace. `name="music" => name="music[]"` 
