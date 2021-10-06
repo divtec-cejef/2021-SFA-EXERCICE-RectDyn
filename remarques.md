@@ -1,4 +1,4 @@
-# Erreurs courantes 2020
+# Erreurs courantes 2021
 
 ## HTML
 * Manque `<form>` avec ses attributs `action` et `method`
