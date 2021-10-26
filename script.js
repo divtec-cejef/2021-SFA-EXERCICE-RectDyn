@@ -93,7 +93,7 @@
     //Réinitialisation du carre sur le reset du formulaire
     formRect.addEventListener('reset', function resetForm() {
         // Supprime les styles appliqués par le script
-        divRectangle.style.cssText = "";
+        divRectangle.style.cssText = '';
         divRectangle.innerText = DIV_RECTANGLE_TXT;
     });
 

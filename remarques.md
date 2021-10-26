@@ -31,7 +31,7 @@
   HTML en les plaçant dans des **constantes**
   et ce **en dehors de la fonction `miseAjour()`**.
 * Transformer les chaines en entier avec `parseInt()`
-* Tester si la hauteur  et la largeur sont des nombres avec `isNaN(variable)`.
+* Tester si la hauteur et la largeur sont des nombres avec `isNaN(variable)`.
 * Ajouter "px" a la valeur CSS de hauteur et largeur.
 * Récupérer la valeur du groupe de boutons raidios avec
   `document.querySelector('[name="couleur"]:checked')`
@@ -43,4 +43,8 @@
   https://divtec.gitbook.io/133a/javascript/formulaires/capter-lenvoi-du-formulaire#evenement-submit
 * Faire le querySelector sur le formulair
 * Mettre en **camelcase** les constantes qui représentent des objets. 
+* Appel de fonction
+  - Simplifier en passant `miseAJour` en paramètre du `addEventListener`
+  - passer `event` à `miseAJour` lors de sa déclaration `function miseAJour(event) {`
+  - ajouter `event.preventDefault();` à `miseAJour`
 
