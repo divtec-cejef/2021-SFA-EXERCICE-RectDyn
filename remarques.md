@@ -2,8 +2,8 @@
 
 ## HTML
 * Manque `<form>` avec ses attributs `action` et `method`
-* Manque `<ul>` et `<li>` pour structurer le formulaire
 * Manque l'attribut `method` et `action`
+* Manque `<ul>` et `<li>` pour structurer le formulaire
 * Ajouter valeur par défaut
 * Manque attribut `name`.
 * valeur des attribut en `kebacase` pas `camelcase` : `couleurFond -> couleur-fond`
@@ -47,4 +47,4 @@
   - Simplifier en passant `miseAJour` en paramètre du `addEventListener`
   - passer `event` à `miseAJour` lors de sa déclaration `function miseAJour(event) {`
   - ajouter `event.preventDefault();` à `miseAJour`
-
+* Réinitialiser tous les style d'un élément HTML : `divRectangle.style.cssText = '';`
