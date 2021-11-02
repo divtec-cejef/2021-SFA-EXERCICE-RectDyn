@@ -48,3 +48,11 @@
   - passer `event` à `miseAJour` lors de sa déclaration `function miseAJour(event) {`
   - ajouter `event.preventDefault();` à `miseAJour`
 * Réinitialiser tous les style d'un élément HTML : `divRectangle.style.cssText = '';`
+* Utiliser `backgroundColor` si vous devez changer uniquement la couleur.
+* Utiliser les tests ternaires
+```javascript
+//Si souligné est coché -- affectation avec condition ternaire
+divRectangle.style.textDecoration = chkSouligne.checked
+    ? "underline" //Si condition vrai
+    : "none"; //Si condition fausse
+```
