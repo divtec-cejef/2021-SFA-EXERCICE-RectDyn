@@ -35,6 +35,8 @@
 * Si possible, récupérer, rechercher, qu'une seule fois les éléments
   HTML en les plaçant dans des **constantes**
   et ce **en dehors de la fonction `miseAjour()`**.
+* utiliser `const` pour les variables contant des objets représentant des éléments HTML.
+* Nommer les variables en précisant le type d'élément HTML. hauteur => txtHauteur
 * Transformer les chaines en entier avec `parseInt()`
 * Tester si la hauteur et la largeur sont des nombres avec `isNaN(variable)`.
 * Ajouter "px" a la valeur CSS de hauteur et largeur.
