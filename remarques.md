@@ -15,6 +15,7 @@
 * Changer les valeurs des `<option>` par des valeurs CSS : `pink`, `#0000FF`
 * **Pas de majuscules** dans les valeurs des attributs HTML !
 * Dans un groupe de boutons radios, les `inputs` ont tous le même `name`.
+* `for` et `id` inutiles quand `input` dans le `label`
 * Utiliser un `name` différent pour les cases à cocher ou ajouter des`[]` à la fin du nom sans espace. `name="music" => name="music[]"`
 * Valeurs des couleurs CSS en minuscules
 * Toujours mettre les `""` autours des valeurs des attributs.
