@@ -6,6 +6,7 @@
 * Manque `<ul>` et `<li>` pour structurer le formulaire
 * Ajouter valeur par défaut
 * Manque attribut `name`.
+* ajouter attribut `autofocus`
 * valeur des attribut en `kebacase` pas `camelcase` : `couleurFond -> couleur-fond`
 * Pas de caractères spéciaux dans les attributs `name`, `id`, `for`
 * Valeur inutile pour les checkbox
