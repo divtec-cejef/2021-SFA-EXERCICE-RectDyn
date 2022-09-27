@@ -29,7 +29,8 @@
 * Pas oublier de **cocher** par défaut le **radio noir**
 
 ## JavaScript
-
+* Nommer clairement les variables contenant des éléments HTML en les préfixant avec le type de balise
+  `hauteur` => `inputHauteur` ou `txtHauteur`
 * querySelectorAll dans le formulaire
 * Décrire avec commentaire ce que fait l'événement, la fonction décrite dans l'événement.
 * Si possible, récupérer, rechercher, qu'une seule fois les éléments
