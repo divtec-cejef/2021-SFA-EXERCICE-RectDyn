@@ -35,6 +35,8 @@
 * Si possible, récupérer, rechercher, qu'une seule fois les éléments
   HTML en les plaçant dans des **constantes**
   et ce **en dehors de la fonction `miseAjour()`**.
+* Nommer clairement les variables contenant des éléments HTML en les préfixant avec le type de balise
+  `hauteur` => `inputHauteur` ou `txtHauteur`
 * Transformer les chaines en entier avec `parseInt()`
 * Tester si la hauteur et la largeur sont des nombres avec `isNaN(variable)`.
 * Ajouter "px" a la valeur CSS de hauteur et largeur.
