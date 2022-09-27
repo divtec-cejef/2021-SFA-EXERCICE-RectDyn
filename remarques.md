@@ -5,6 +5,7 @@
 * Manque l'attribut `method` et `action`
 * Manque `<ul>` et `<li>` pour structurer le formulaire
 * Manque valeur par défaut `value=100`
+* Mettre la valeur par défaut avec `value=100` et pas avec `placeholder`
 * Manque attribut `name`.
 * ajouter attribut `autofocus`
 * valeur des attribut en `kebacase` pas `camelcase` : `couleurFond -> couleur-fond`
