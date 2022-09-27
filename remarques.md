@@ -31,6 +31,7 @@
 ## JavaScript
 * Nommer clairement les variables contenant des éléments HTML en les préfixant avec le type de balise
   `hauteur` => `inputHauteur` ou `txtHauteur`
+* Ne pas récupérer des valeurs mais des éléments HTML au début du script.
 * querySelectorAll dans le formulaire
 * Décrire avec commentaire ce que fait l'événement, la fonction décrite dans l'événement.
 * Si possible, récupérer, rechercher, qu'une seule fois les éléments
