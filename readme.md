@@ -18,11 +18,12 @@ Créer un formulaire Web permettant à l’utilisateur de modifier l’aspect et
 
 ### Tutos OpenClassrooms
 
-- [Manipuler le code HTML 1re partie](https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/manipuler-le-code-html-partie-1-2)
-- [Manipuler le code HTML 2e partie](https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/manipuler-le-code-html-partie-2-2)
-- [Les événements](https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/les-evenements-24)
-- [Les Formulaires](https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/les-formulaires-1)
-- [Manipuler le CSS](https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/manipuler-le-css)
+- [Créez des formulaires](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061492-creez-des-formulaires)
+- [Finalisez un formulaire et ajoutez un bouton d'envoi](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061499-finalisez-un-formulaire-et-ajoutez-un-bouton-denvoi)
+- [Interagissez avec un élément d’une page web grâce aux événements](https://openclassrooms.com/fr/courses/7696886-apprenez-a-programmer-avec-javascript/8206297-interagissez-avec-un-element-d-une-page-web-grace-aux-evenements)
+- [Récupérez la valeur d’un champ de formulaire](https://openclassrooms.com/fr/courses/7696886-apprenez-a-programmer-avec-javascript/8206488-recuperez-la-valeur-d-un-champ-de-formulaire)
+    
+  - et les chapitres suivants
 
 ------
 
